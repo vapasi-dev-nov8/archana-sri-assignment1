@@ -13,4 +13,18 @@ public class RectangleTest {
         assertEquals( 200 , rectangle.area());
     }
 
+    @Test
+    void shouldReturnAreaOfRectangleAsZeroIfLength() {
+        Rectangle rectangle = new Rectangle(0, 20);
+        assertEquals( 0 , rectangle.area());
+    }
+
+    @Test
+    void shouldReturnPerimeterOfRectangle() {
+        Rectangle rectangle = new Rectangle(10, 20);
+        assertEquals( 60 , rectangle.perimeter());
+    }
+
+
+
 }
