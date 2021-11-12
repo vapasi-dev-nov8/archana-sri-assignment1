@@ -9,8 +9,8 @@ public class RectangleTest {
 
     @Test
     void shouldReturnAreaOfRectangle() {
-        Rectangle rectangle = new Rectangle();
-        assertEquals( 200 , rectangle.calculateArea( 10 , 20 ));
+        Rectangle rectangle = new Rectangle(10, 20);
+        assertEquals( 200 , rectangle.area());
     }
 
 }

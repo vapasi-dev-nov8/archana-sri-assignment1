@@ -2,9 +2,15 @@ package com.shapes;
 
 public class Rectangle {
 
-    public int Calc;
+    private double length;
+    private double breadth;
 
-    public  double calculateArea(double length, double breadth) {
+    public Rectangle(double length, double breadth) {
+        this.length = length;
+        this.breadth = breadth;
+    }
+
+    public  double area() {
 
         double area = length * breadth ;
 
