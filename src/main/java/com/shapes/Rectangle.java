@@ -1,3 +1,5 @@
+package com.shapes;
+
 public class Rectangle {
 
     public int Calc;
